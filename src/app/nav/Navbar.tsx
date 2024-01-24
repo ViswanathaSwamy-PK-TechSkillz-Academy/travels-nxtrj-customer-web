@@ -1,12 +1,9 @@
-import React from 'react'
-import Search from './Search';
 import Logo from './Logo';
-// import LoginButton from './LoginButton';
-// import { getCurrentUser } from '../actions/authActions';
+import Search from './Search';
 import UserActions from './UserActions';
 
 export default async function Navbar() {
-    const user = { username: 'John Doe', name: 'John Doe', id : "1"};
+    const user = { username: 'John Doe', name: 'John Doe', id: "1" };
 
     return (
         <header className='sticky top-0 z-50 flex justify-between bg-white p-3 items-center text-blue-800 shadow-md shadow-gray-400'>

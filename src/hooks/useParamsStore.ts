@@ -32,19 +32,19 @@ const initialState: State = {
     pageNumber: 1,
 
     pageSize: 12,
-    
+
     pageCount: 1,
-    
+
     searchTerm: '',
-    
+
     searchValue: '',
-    
+
     orderBy: 'make',
-    
+
     filterBy: 'live',
-    
+
     seller: undefined,
-    
+
     winner: undefined
 }
 
