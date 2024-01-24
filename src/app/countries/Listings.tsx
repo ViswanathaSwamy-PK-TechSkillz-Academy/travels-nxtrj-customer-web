@@ -2,8 +2,8 @@
 
 import { Country, PagedResult } from '@/types';
 import { useEffect, useState } from 'react';
-import CountryCard from './CountryCard';
 import { getData } from '../actions/countriesActions';
+import CountryCard from './CountryCard';
 
 export default function Listings() {
 
