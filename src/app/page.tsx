@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Listings from "./countries/Listings";
 
 export default function Home() {

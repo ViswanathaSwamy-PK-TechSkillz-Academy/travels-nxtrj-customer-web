@@ -1,6 +1,5 @@
 'use client'
 
-// import { useParamsStore } from '@/hooks/useParamsStore'
 import { Dropdown } from 'flowbite-react'
 import { User } from 'next-auth'
 import { signOut } from 'next-auth/react'
